@@ -79,7 +79,7 @@ function App() {
       </motion.div>
     
         <motion.div>
-        <p1> rahhhh </p1>     
+          
         </motion.div>
         </>
     )}
