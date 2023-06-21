@@ -1,0 +1,56 @@
+#root {
+  max-width: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.eightBall{
+  margin:0;
+  display: flex;
+  background: black;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  
+  background: radial-gradient(circle at 100px 100px, #302e2e, #000);
+  
+}
+#innerCircle{
+  display: flex;
+align-content: center;
+}
+.eightBall-innerCircle{
+ 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  position:relative;
+  top: -170px;
+  left: 10px;
+  
+}
+#triangle {
+ max-width: 1280px;
+ display:flex
+}
+.blueTriangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 70px solid rgb(30, 0, 255);
+  border-radius: 10px / 15px;
+  position:fixed;
+  top: 60px;
+  left: 10px;
+  rotate: 180deg;
+  
+}
+
+.card {
+  padding: 2em;
+}
+
+
