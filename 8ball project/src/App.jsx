@@ -79,7 +79,8 @@ function App() {
       </motion.div>
     
         <motion.div>
-          
+          <p1>this project wasn't to be what it is, next propper commit will add traditional text for an 8ball
+          </p1>
         </motion.div>
         </>
     )}
